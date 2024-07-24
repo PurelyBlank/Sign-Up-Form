@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <div class="side-image-container">
+            <h1 class="naturalist">Naturalist</h1>
+            <img class="side-image" src="./halie-west-Sunrise-in-Bryce-Canyon-National-Park.jpg" alt="Surnise in Bryce Canyon National Park Photo">
+            <p class="image-source">
+                Photo by 
+                <a href="https://unsplash.com/@haliewestphoto" target="_blank">Hallie West</a> 
+                on 
+                <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+            <p>
+        </div>
+        <div class="form">
+            <h1 class="sign-up">Sign up here!</h1>
+            <form class="form-box" action="" class="sign-up" method="POST">
+                <label for="firstName">FIRST NAME
+                <input type="text" id="firstName" required>
+                </label>
+
+                <label for="lastName">LAST NAME
+                <input type="text" id="lastName" required>
+                </label>
+
+                <label for="email">EMAIL
+                <input type="email" id="email" required>
+                </label>
+
+                <label for="phoneNumber">PHONE NUMBER
+                <input type="tel" id="phoneNumber" required>
+                </label>
+
+                <label for="password">PASSWORD
+                <input type="password" id="password" required>
+                </label>
+
+                <label for="confirmPassword">CONFIRM PASSWORD
+                <input type="password" id="password" required>
+                </label>
+            </form>
+            <div class="submit-button">
+                <button id="submit" type="submit" >Create Account</button>
+                <div class="login">
+                    Already have an account? <a href="#">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
